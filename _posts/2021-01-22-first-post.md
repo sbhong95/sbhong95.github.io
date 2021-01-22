@@ -1,7 +1,7 @@
 ---
 title: "github page 시작하기"
 excerpt: "블로그 시작해보자"
-categories
+categories:
  - Blog
 tags:
  - Blog
