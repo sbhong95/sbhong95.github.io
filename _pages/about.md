@@ -4,4 +4,6 @@ permalink: /about/
 layout: single
 ---
 
-이것 저것 올려보자
+
+
+방황하는 자들이 모두 길을 잃은 것은 아니네
