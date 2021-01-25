@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Bumi's Blog"
+title                    : "Playground"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Hong SeungBeom"
+name                     : "maed20031"
 description              : "Not all those who wander are lost"
 url                      : "https://maed20031.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -93,8 +93,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "방황하는 대학생"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "방황하는 중"
+  avatar           : "/assets/images/hearthstone.png"
   bio              : "Not all those who wander are lost"
   location         : "South Korea"
   email            : 
@@ -279,6 +279,7 @@ defaults:
       comments: # true
       share: true
       related: true
+      mathjax: true
 
   # _pages
   - scope:

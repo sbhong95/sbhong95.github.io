@@ -5,8 +5,9 @@ categories:
  - Statistics
 tags:
  - Statistics
- - Probability
 use_math: true
+toc: true
+toc_sticky: true
 ---
 
 # 1. Probability Theory
