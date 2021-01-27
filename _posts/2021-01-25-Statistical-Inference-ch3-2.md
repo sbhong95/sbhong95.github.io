@@ -132,6 +132,10 @@ $$
 \end{align*}
 $$
 
+![Chevychev Theorem](../../assets/images/chevychev.png)
+
+검은색이 $EX$, 빨간색이 $aP(X \ge a)$를 나타낸다.
+
 ### Identities
 
 **정리 5.2**
@@ -148,8 +152,8 @@ $X \sim N(\theta, \sigma^2)$이고 미분가능한 함수 $g$에 대해 $E\mid g
 
 $\chi^2_p$를 자유도가 $p$인 카이제곱분포라고 하자. 임의의 함수 $h$에 대해 다음이 성립한다. 
 
-\[
+$$
  Eh(\chi^2_p) = pE\bigg(\frac{h(\chi^2_{p+2})}{\chi^2_{p+2}}\bigg)
-\]
+$$
 
 기대값이 존재한다고 가정한다.
