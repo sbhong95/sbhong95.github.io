@@ -50,8 +50,8 @@ $A - \alpha I$의 eigenvalue들은 $\lambda_1 - \alpha,\lambda_2 - \alpha, \dots
 
 Gram-Schmidt 과정은 orthonormal vector들을 찾는 과정이다. 여기서는 벡터 공간이 유한하다고 가정하자.
 
-1. linear independent인 $n$개의 벡터들$\{e_i\}을 고른다.
+1. linear independent인 $n$개의 벡터들$\{e_i\}$을 고른다.
 2. $e_1$을 크기가 1이 되도록 만든다. $(x_1)$
-3. $x_2 = e_2 -  \langle e_2, x_1 \rangle x_1$
-4. $x_k = e_k - \sum \langle e_k, x_i\rangle x_i$를 $n$번 반복한다.
+3. $x_2 = e_2 -  \frac{\langle e_2, x_1 \rangle}{\langle x_1, x_1 \rangle} x_1$
+4. $x_k = e_k - \sum \frac{\langle e_k, x_i\rangle}{\langle x_i x_i \rangle} x_i$를 $k = n$까지 반복한다.
 
