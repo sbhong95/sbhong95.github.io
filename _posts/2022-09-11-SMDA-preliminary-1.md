@@ -44,12 +44,15 @@ $a_1,...a_n \in \mathbb R, x_1, ..., x_n \in V$ 가 있을 때,
 $$ 
 a_1 \cdot x_1 + \dotsb + a_n\cdot x_n \in V
 $$  
+
 로 표현된 벡터를 $x_i$들의 선형결합이라고 하고 $a_i$들을 해당하는 벡터들의 좌표라고 한다.
 
 만약 
+
 $$
 a_1 \cdot x_1 + \dotsb + a_n\cdot x_n  = 0
 $$
+
 의 해가 $a_1 = \dots = a_n = 0$ 하나만 있을 경우 linearly independent라고 하고 아닌 경우는 linearly dependent라고 한다.
 
 ## Linear subspace
@@ -62,7 +65,7 @@ $$
 **예제 Linear span**
 
 $A = \{x_1, ..., x_n\} \subseteq V$의 모든 선형 결합을 모아놓은 집합을 span$(A)$라고 하자. 
-그러면 span($A$)는 $V$의 부분공간이 된다.
+그러면 span$(A)$는 $V$의 부분공간이 된다.
 
 # 거리 공간 Metric space
 
@@ -83,7 +86,7 @@ $A = \{x_1, ..., x_n\} \subseteq V$의 모든 선형 결합을 모아놓은 집�
 모든 $x,y \in V, \alpha \in \mathbb R$에 대해
 1. $\|x\| \ge 0$
 2. $\|x\| = 0 \Leftrightarrow x = 0$
-3. $\|\alpha x\| = |\alpha| \|x\|$
+3. $\|\alpha x\| = | \alpha | \cdot \|x\|$
 4. $\|x + y\| \le \|x\| + \|y\|$
 
 Normed space에서 $d(x, y) = \|x - y\|$를 정의하면 거리 공간의 정의를 만족한다는 것을 확인할 수 있다. 따라서 $Normed space$는 항상 거리 공간이지만 역은 성립하지 않는다.
@@ -105,4 +108,4 @@ Normed space에서 $d(x, y) = \|x - y\|$를 정의하면 거리 공간의 정의
 
 Inner product가 주어지면 Norm이 유도되고 유도된 Norm에서 다시 metric이 유도된다. 
 
-Complete Normed space, Complete Inner product space를 각각 $Banach space, Hilbert space$라고 한다.
+Complete Normed space, Complete Inner product space를 각각 Banach space, Hilbert space라고 한다.

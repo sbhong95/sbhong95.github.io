@@ -58,7 +58,7 @@ $S \preceq V$일 때 $P_S: V \to V$가 다음 조건을 만족하면 orthogonal 
 $P_S(v)$와 $S$의 관계는 다음 식으로 나타낼 수 있다.
 
 $$
-P_S(v) = \argmin_{s \in S} \|v - s\|
+P_S(v) = \operatorname{argmin}_{s \in S} \|v - s\|
 $$
 
 한 벡터와 한 공간 사이의 거리를 제일 작게 만들어주는 벡터를 찾아주는 과정이 orthogonal projection이 된다. 이 성질을 Least squre estimation에서 응용할 수 있다.
@@ -68,7 +68,7 @@ $$
 최소제곱추정법(LSE)는 아래 문제를 말한다.
 
 $$
-\argmin_\beta \|Y - X\beta\|^2
+\operatorname{argmin}_\beta \|Y - X\beta\|^2
 $$
 
 이 경우 $S = \operatorname{span}(X)$로 놓으면 Orthogonal projection을 찾으면 해결된다.
