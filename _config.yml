@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Playground"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "sbhong95.github.io"
 name                     : "sbhong"
 description              : "Not all those who wander are lost"
 url                      : "https://sbhong95.github.io"
