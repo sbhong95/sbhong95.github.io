@@ -1,5 +1,5 @@
 ---
-title: "측도, 확률"
+title: "라돈 - 니코딤 정리"
 excerpt: "Radon-Nikodym", "Fubini"
 categories:
  - Theoretical Statistics
