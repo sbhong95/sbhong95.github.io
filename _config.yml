@@ -94,8 +94,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "방황하는 중"
-  avatar           : "/assets/images/hearthstone.png"
+  name             : "SeungBeom Hong"
+  avatar           : #"/assets/images/hearthstone.png"
   bio              : "Not all those who wander are lost"
   location         : "Seoul, South Korea"
   email            : "sbhong95@korea.ac.kr"
